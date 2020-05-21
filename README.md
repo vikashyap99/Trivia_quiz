@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Link for App https://triviaquizfyle.herokuapp.com/
+## Link for App https://triviaquizfyle.herokuapp.com/
 
 ## Available Scripts
 
