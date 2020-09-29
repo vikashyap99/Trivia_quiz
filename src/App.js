@@ -92,6 +92,13 @@ submit = () => {
   this.setState({display: display})
 }
 
+changeColor = () => {
+ const divStyle = {
+    background: 'green',
+    };
+   
+}
+
   render(){
     
     let ans = []
@@ -181,7 +188,7 @@ submit = () => {
       </nav>
       
       {questions}
-      <button type="button" className="btn btn-primary btn-lg btn-block" onClick = {this.submit}>Submit</button>
+      <button type="button" className="btn btn-primary btn-lg btn-block" onClick = {() => {this.submit(); this.changeColor();}}>Submit</button>
       {this.state.display}
     </div>
   );
